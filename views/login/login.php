@@ -45,18 +45,10 @@ if($_SERVER['REQUEST_METHOD'] === "POST"){
 
 
 
-}
-
-
-
-
-
-
-
-
+};
 
 ?>
-<?php require_once( ROOT_VIEW . "/templates/header-login.php");?>
+<?php require_once(ROOT_VIEW ."/templates/header-login.php");?>
 <div class="w-96 h-96 bg-white py-7 px-5">
     <h1 class="text-center text-lg mb-2">Login</h1>
     <hr>
@@ -77,4 +69,5 @@ if($_SERVER['REQUEST_METHOD'] === "POST"){
     </form>
     <p class="mt-7 flex justify-center items-center w-full gap-2">You don't have an account? <a class="text-blue-600 cursor-pointer border-b-blue-700" href="<?= HTTP_BASE ?>/login/register">Register now -></a></p>
 </div>
+
 <?php require_once( ROOT_VIEW . "/templates/footer-login.php");?>

@@ -7,4 +7,3 @@
     <title>Login</title>
 </head>
 <body class="bg-blue-200 w-full h-screen flex justify-center items-center">
-    
