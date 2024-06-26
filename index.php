@@ -24,7 +24,7 @@ function login()
 function error404()
 {
     http_response_code(404);
-    require_once ROOT_DIR . '/views/home.php';
+    require_once ROOT_DIR . '/views/home.html';
     exit;
 }
 function verificarlogin()
